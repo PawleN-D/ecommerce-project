@@ -12,22 +12,6 @@ const buttonStyles = css`
   }
 `;
 
-const customButtonStyles = css`
-  width: 80%;
-  opacity: 0.7;
-  position: absolute;
-  top: 255px;
-  display: none;
-
-  &:hover {
-    background-color: black;
-    color: white;
-    border: none;
-    opacity: 0.85;
-    display: flex;
-  }
-`;
-
 const invertedButtonStyles = css`
   background-color: white;
   color: black;
